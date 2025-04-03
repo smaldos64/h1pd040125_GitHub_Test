@@ -13,10 +13,10 @@ namespace XUnitTestGPOpgaver_Net9
         [Fact]
         public void Exercise1Test()
         {
-            int x = 5, y = 10;
+            int x = 6, y = 10;
             Opgaver.Interchange(ref x, ref y);
             Assert.Equal(10, x);
-            Assert.Equal(5, y);
+            Assert.Equal(6, y);
         }
         [Fact]
         public void Exercise2Test()
